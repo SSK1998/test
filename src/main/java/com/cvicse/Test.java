@@ -9,6 +9,7 @@ public class Test {
 
         System.out.println("ASDAS");
         System.out.println("pull test");
+        System.out.println("push test");
 
     }
 }
