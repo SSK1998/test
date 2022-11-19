@@ -1,15 +1,18 @@
 package com.cvicse;
 
+import com.cvicse.common.OrderService;
+
 public class Test {
     public static void main(String[] args) {
-        System.out.println("ASDAS");
-        System.out.println("ASDAS");
-
-        System.out.println("ASDAS");
-
-        System.out.println("ASDAS");
-        System.out.println("pull test");
-        System.out.println("push test");
-
+//        OrderService orderService = new OrderService();
+//
+//        for(int i = 1; i<=50;i++){
+//            new Thread(() ->{
+//                String str = orderService.getOrdNumber();
+//                System.out.println(str);
+//            },String.valueOf(i)).start();
+//        }
+        System.out.println(Runtime.getRuntime().availableProcessors());
+        System.out.println(Runtime.getRuntime().maxMemory()/1024/1024);
     }
 }
